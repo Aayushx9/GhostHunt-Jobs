@@ -1,0 +1,12 @@
+GhostHunt-fake-job-detector/
+├── assets/                              # README screenshots (gauge, SHAP, confusion matrix, ROC)
+│   ├── GhostScore_Gauge.png
+│   ├── SHAP_Waterfall.png
+│   ├── Feature_Importance.png
+│   ├── Confusion_Matrix.png
+│   └── ROC_Curve.png
+├── GhostHunt - Fake Job Detector.ipynb  # Full pipeline: data -> features -> model -> SHAP -> Gradio UI
+├── requirements.txt                     # xgboost, shap, gradio, plotly, scikit-learn, pandas, numpy
+├── LICENSE                              # MIT
+├── .gitignore
+└── README.md
